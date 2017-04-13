@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="arenagameplay">
+		<centered>1</centered>
+		<size>800,578</size>
+		<id_arg>0</id_arg>
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL|wxVSCROLL|wxHSCROLL</style>
+		<handler function="OnClose1" entry="EVT_CLOSE" />
+		<object class="wxPanel" name="ID_PANEL2" variable="Panel2" member="yes">
+			<pos>-56,0</pos>
+			<size>1600,500</size>
+			<handler function="OnPanel2Paint" entry="EVT_PAINT" />
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+				<bitmap>/home/dylan/Documents/Cawledge/TeachersVsStudents (copy)/pic/bg.png</bitmap>
+				<pos>0,0</pos>
+				<size>800,578</size>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP2" variable="StaticBitmap2" member="yes">
+				<bitmap>/home/dylan/Documents/Cawledge/TeachersVsStudents (copy)/pic/sa.png</bitmap>
+				<pos>608,8</pos>
+				<size>40,42</size>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP6" variable="StaticBitmap6" member="yes">
+				<bitmap>/home/dylan/Documents/Cawledge/TeachersVsStudents (copy)/pic/ta.png</bitmap>
+				<pos>696,8</pos>
+				<size>40,42</size>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP10" variable="StaticBitmap10" member="yes">
+				<bitmap>./VS.png</bitmap>
+				<pos>648,8</pos>
+				<size>56,48</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+				<label>Run</label>
+				<pos>656,272</pos>
+				<style>wxTAB_TRAVERSAL</style>
+				<handler function="OnButton1Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxStaticLine" name="ID_STATICLINE1" variable="StaticLine1" member="yes">
+				<pos>530,0</pos>
+				<size>24,824</size>
+				<style>wxLI_VERTICAL|wxSUNKEN_BORDER</style>
+			</object>
+			<object class="wxChoice" name="ID_CHOICE1" variable="Choice1" member="yes">
+				<content>
+					<item>5</item>
+					<item>6</item>
+					<item>7</item>
+					<item>8</item>
+					<item>9</item>
+					<item>10</item>
+				</content>
+				<selection>0</selection>
+				<pos>656,112</pos>
+				<handler function="OnChoice1Select1" entry="EVT_CHOICE" />
+			</object>
+			<object class="wxChoice" name="ID_CHOICE2" variable="Choice2" member="yes">
+				<content>
+					<item>5</item>
+					<item>6</item>
+					<item>7</item>
+					<item>8</item>
+					<item>9</item>
+					<item>10</item>
+				</content>
+				<selection>0</selection>
+				<pos>656,160</pos>
+				<handler function="OnChoice2Select" entry="EVT_CHOICE" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+				<label>Apply</label>
+				<pos>656,216</pos>
+				<handler function="OnButton5Click1" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Arena Settings</label>
+				<pos>632,80</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Length</label>
+				<pos>600,120</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+				<label>Width</label>
+				<pos>600,168</pos>
+			</object>
+			<object class="wxStaticLine" name="ID_STATICLINE2" variable="StaticLine2" member="yes">
+				<pos>544,256</pos>
+				<size>248,0</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+				<pos>664,344</pos>
+				<handler function="OnTextCtrl1Text1" entry="EVT_TEXT" />
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+				<pos>664,392</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+				<label>Students Alive:</label>
+				<pos>552,352</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+				<label>Teacher Alive:</label>
+				<pos>560,400</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+				<pos>664,464</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+				<label>Timer (ms)</label>
+				<pos>576,472</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+				<pos>664,504</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+				<label>WINNER!</label>
+				<pos>592,512</pos>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-10</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>

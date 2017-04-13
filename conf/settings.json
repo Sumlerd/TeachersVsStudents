@@ -1,0 +1,150 @@
+{
+	"arena" : 
+	{
+		"dimensions" : 
+		{
+			"x" : 7,
+			"y" : 7
+		}
+	},
+	"cell" : 
+	{
+		"dimensions" : 
+		{
+			"x" : 1,
+			"y" : 1
+		}
+	},
+	"character" : 
+	{
+		"student" : 
+		{
+			"dark" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 2,
+					"health" : 2,
+					"range" : 1,
+					"speed" : 2
+				},
+				"cost" : 1000,
+				"count" : 5
+			},
+			"grand" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 5,
+					"health" : 5,
+					"range" : 2,
+					"speed" : 3
+				},
+				"cost" : 7500,
+				"count" : 1
+			},
+			"light" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 1,
+					"health" : 2,
+					"range" : 2,
+					"speed" : 2
+				},
+				"cost" : 1000,
+				"count" : 9
+			},
+			"master" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 3,
+					"health" : 3,
+					"range" : 2,
+					"speed" : 2
+				},
+				"cost" : 5000,
+				"count" : 1
+			}
+		},
+		"teacher" : 
+		{
+			"dark" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 1,
+					"health" : 1,
+					"range" : 2,
+					"speed" : 1
+				},
+				"cost" : 1000,
+				"count" : 7
+			},
+			"grand" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 2,
+					"health" : 3,
+					"range" : 4,
+					"speed" : 5
+				},
+				"cost" : 7500,
+				"count" : 0
+			},
+			"light" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 1,
+					"health" : 1,
+					"range" : 2,
+					"speed" : 2
+				},
+				"cost" : 1000,
+				"count" : 6
+			},
+			"master" : 
+			{
+				"attributes" : 
+				{
+					"damage" : 2,
+					"health" : 2,
+					"range" : 3,
+					"speed" : 3
+				},
+				"cost" : 5000,
+				"count" : 3
+			}
+		}
+	},
+	"game" : 
+	{
+		"mode" : "simulation"
+	},
+	"object" : {},
+	"obstacle" : 
+	{
+		"count" : 11
+	},
+	"player" : 
+	{
+		"computer" : 
+		{
+			"coin" : 33000,
+			"team" : "teacher"
+		},
+		"first" : 
+		{
+			"coin" : 16000,
+			"team" : "student"
+		},
+		"second" : 
+		{
+			"coin" : 16000,
+			"team" : "teacher"
+		}
+	}
+}

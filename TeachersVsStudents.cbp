@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TeachersVsStudents" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TeachersVsStudents" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Midevil_2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`wx-config --cflags`" />
+			<Add option='[[if (GetCompilerFactory().GetCompilerVersionString(_T(&quot;gcc&quot;)) &gt;= _T(&quot;4.8.0&quot;)) print(_T(&quot;-Wno-unused-local-typedefs&quot;));]]' />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="TeachersVsStudentsApp.cpp" />
+		<Unit filename="TeachersVsStudentsApp.h" />
+		<Unit filename="TeachersVsStudentsMain.h" />
+		<Unit filename="arena.cpp" />
+		<Unit filename="arena.h" />
+		<Unit filename="arenagameplay.cpp" />
+		<Unit filename="arenagameplay.h" />
+		<Unit filename="cell.cpp" />
+		<Unit filename="cell.h" />
+		<Unit filename="character.cpp" />
+		<Unit filename="character.h" />
+		<Unit filename="classify.cpp" />
+		<Unit filename="classify.h" />
+		<Unit filename="conf/settings.json" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="json/json-forwards.h" />
+		<Unit filename="json/json.h" />
+		<Unit filename="jsoncpp.cpp" />
+		<Unit filename="navigate.h" />
+		<Unit filename="object.cpp" />
+		<Unit filename="object.h" />
+		<Unit filename="obstacle.cpp" />
+		<Unit filename="obstacle.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="portal.cpp" />
+		<Unit filename="portal.h" />
+		<Unit filename="settings.cpp" />
+		<Unit filename="settings.h" />
+		<Unit filename="student.cpp" />
+		<Unit filename="student.h" />
+		<Unit filename="teacher.cpp" />
+		<Unit filename="teacher.h" />
+		<Unit filename="wxsmith/arenagameplay.wxs" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="Midevil_2App.cpp" main="Midevil_2Frame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxDialog wxs="wxsmith/SettingsDialog.wxs" src="SettingsDialog.cpp" hdr="SettingsDialog.h" fwddecl="0" i18n="1" name="SettingsDialog" language="CPP" />
+					<wxFrame wxs="wxsmith/arenagameplay.wxs" src="arenagameplay.cpp" hdr="arenagameplay.h" fwddecl="0" i18n="1" name="arenagameplay" language="CPP" />
+					<wxDialog wxs="wxsmith/warriorwin.wxs" src="warriorwin.cpp" hdr="warriorwin.h" fwddecl="0" i18n="1" name="warriorwin" language="CPP" />
+					<wxDialog wxs="wxsmith/wizardwin.wxs" src="wizardwin.cpp" hdr="wizardwin.h" fwddecl="0" i18n="1" name="wizardwin" language="CPP" />
+					<wxDialog wxs="wxsmith/Specs.wxs" src="Specs.cpp" hdr="Specs.h" fwddecl="0" i18n="1" name="Specs" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
